@@ -24,14 +24,14 @@ segment Code
 	pushis "elevation"
 	displacement elevation
 	drop
-	pushif 0
-	pushif 0.8
-	pushif 0.8
+	pushif 0.5
+	pushif 0.7
+	pushif 0.76
 	settc
 	pop sand
-	pushif 0.2
-	pushif 0.6
-	pushif 0.2
+	pushif 0.14
+	pushif 0.54
+	pushif 0.13
 	settc
 	pop grass
 	pushif 0
@@ -49,9 +49,9 @@ segment Code
 	pushif 1
 	settc
 	pop white
-	pushif 0.5
-	pushif 0.5
-	pushif 0.5
+	pushif 0.6
+	pushif 0.69
+	pushif 0.72
 	settc
 	pop gray
 	pushv N

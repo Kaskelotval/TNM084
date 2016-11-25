@@ -40,6 +40,6 @@ segment Code
 	mulcc
 	addcc
 	pop Ci
-	pushif 0.8
+	pushif 0.9
 	setfc
 	pop Oi

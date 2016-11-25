@@ -10,12 +10,12 @@ surface planet_surface() {
   displacement("elevation", elevation);
 
   //Colors to be used 
-  color sand = color(0.8, 0.8, 0.0);
-  color grass = color(0.2, 0.6, 0.2);
+  color sand = color(0.76, 0.7, 0.5);
+  color grass = color(0.13, 0.54, 0.14);
   color sea = color(0.0, 0.0, 0.0);
   color darkblue = color(0.1, 0.3, 0.5);
   color white = color (1.0, 1.0, 1.0);
-  color gray = color(0.5, 0.5, 0.5);
+  color gray = color(0.72, 0.69, 0.6);
   
   // Normalize the normal to make sure it's unit length
   vector Nn = normalize(N);

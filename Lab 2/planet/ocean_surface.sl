@@ -10,5 +10,5 @@ surface ocean_surface() {
   // diffuse + specular light on ocean
   Ci = ocean * diffuse(N) + specular(Nn, lightDirection, shinyness);
   // semi transparent water
-  Oi = 0.8;
+  Oi = 0.9;
 }

@@ -3,7 +3,7 @@
 FrameBegin 1
  
 Display "plane.tif" "file" "rgba"
-Format 640 480 -1
+Format 1024 768 -1
 ShadingRate 1
 Projection "perspective" "fov" [30]
 Identity
@@ -30,7 +30,7 @@ Identity
 	  Displacement "planet_displacement"
 	  Surface "planet_surface"
 	  TransformBegin
-	        # A single plygon, 1x1 units in the (x,y), plane
+	        # A single plygon, 10x10 units in the (x,y), plane
 	        Polygon "P" [	0 0 0 
 	        				0 10 0
 	        				10 10 0
@@ -43,7 +43,7 @@ Identity
       Displacement "ocean_displacement"
       Surface "ocean_surface"
       TransformBegin
-	        # A single plygon, 1x1 units in the (x,y), plane
+	        # A single plygon, 10x10 units in the (x,y), plane
 	        Polygon "P" [	0 0 0 
 	        				0 10 0
 	        				10 10 0
@@ -51,7 +51,6 @@ Identity
 	        		"st" [	0 1 0 0 1 0 1 1]
       TransformEnd
     AttributeEnd
-
  
 WorldEnd
  
