@@ -11,7 +11,7 @@ Identity
 # Default distant headlight
 LightSource "distantlight" 1 "from" [0 0 0] "to" [1 -1 1]
 # Default distant headlight
-LightSource "distantlight" 1 "from" [0 0 0] "to" [1 10 1]
+LightSource "distantlight" 1 "from" [0 0 0] "to" [0.5 -5 0.5]
 
 # Camera transformation
 Rotate 80 1 0 0 
